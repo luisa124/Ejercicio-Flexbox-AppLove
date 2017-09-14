@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
   margin: 0 auto;
   font-size: 16px;
@@ -11,9 +16,10 @@ body {
 .menu {
     background-color: white;
     position: fixed;
-    top: 20px;
+    top: 0px;
     left: 0;
     width: 100%;
+    height: 80px;
 }
 .menu.flex-container {
     justify-content: flex-start;
@@ -44,6 +50,7 @@ body {
 }
 a {
     text-decoration: none;
+    
 }
 .text-home {
     font-size: 2.4em;
@@ -82,12 +89,22 @@ a {
 .parrafo p {
     align-content: center;
 }
-.imagen {
-    padding: 0%;
-    margin-left: 10%;
+
+.fondo-imagen {
+    margin-left: 20%;
 }
 
-@media (max-width: 600px) {
+.imagen1 {
+    margin-left: 4%;
+}
+.imagen1 .imagenes {
+    padding: 0%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+/* @media (max-width: 600px) {
     [class="imagen"] {
     min-height: 7px;
     padding: 0%;
@@ -96,16 +113,15 @@ a {
     margin-left: 8%;
     margin-top: 20%;
  }
-}
+} */
 .imagen1 img {
     background-color: aqua;
-    width: 25%;
+    width: 26%;
     color: black;
     margin: 4%;
-    
 }
 
-
+/*----------------pie de la codigo--------------*/
 footer {
     text-align: center;
     color: aliceblue;
@@ -115,13 +131,13 @@ footer {
     height: 70px;
     clear: both;
 }
-.pie footer span {
+footer p i{
     color: red;
-    width: 2%;
-    height: 2%;
+    width: 5%;
+    height: 5px;
 }
- span .icon-heart{
-     background-color: aqua;
-     border-radius: 50px;
-     position: absolute;
+footer p{
+    font-size: 14px;
+    position: relative;
+    top: 22px;
 }
